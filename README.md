@@ -1,50 +1,48 @@
-# Könüllü Qeydiyyat Sistemi – Requirements-Based QA Project
-
-Bu repo könüllü qeydiyyat sistemi üzrə texniki istək sənədinin QA baxımından analiz edilməsi üçün yaradılıb.
+# Volunteer Registration Requirements Analysis
 
 ## Layihə haqqında
 
-Layihə könüllü proqramı üzrə qeydiyyat, altproqram seçimi, namizəd profili, müraciətlərin izlənməsi, admin əməliyyatları, status idarəetməsi, bildiriş qaydaları, müsahibə balları və sənəd yükləmə tələblərinin analizini əhatə edir.
+Bu repository könüllü qeydiyyat sistemi üzrə tələblərin QA baxımından analiz edilməsi üçün hazırlanmışdır.
 
-## Məqsəd
+Layihədə qeydiyyat prosesi, namizəd uyğunluğu, təkrar qeydiyyatın qarşısının alınması, müraciətlərin izlənməsi, admin panel, status idarəetməsi, bildirişlər və sənəd yükləmə qaydaları analiz olunur.
 
-Bu repo-nun məqsədi aşağıdakı QA bacarıqlarını göstərməkdir:
+## Layihənin məqsədi
 
-* Texniki istək sənədinin analizi
-* Funksional tələblərin modullara bölünməsi
-* Test ssenarilərinin hazırlanması
-* Test case-lərin yazılması
-* Checklist hazırlanması
-* Aydın olmayan tələblərin müəyyən edilməsi
-* Requirements-based testing yanaşmasının tətbiqi
+Bu layihənin məqsədi texniki istək sənədində qeyd olunan tələbləri strukturlaşdırmaq, test edilə bilən hissələri müəyyən etmək və QA baxımından riskləri aşkar etməkdir.
 
-## Əsas modullar
+## Əhatə olunan modullar
 
-* Qeydiyyat prosesi
-* Altproqram seçimi
-* Yaş və uyğunluq yoxlaması
-* Təkrar qeydiyyatın qarşısının alınması
-* Namizəd profili
-* Müraciətlərin izlənməsi
-* Admin və database idarəetməsi
-* Müsahibə və bal sistemi
-* Namizəd statuslarının idarə edilməsi
-* Email/SMS bildiriş qaydaları
-* Sənəd və CV yükləmə qaydaları
+- Registration
+- Duplicate Registration Prevention
+- Subprogram Eligibility
+- Cross-Program Restrictions
+- Candidate Profile
+- Application Tracking
+- Admin Panel
+- Role-Based Access Control
+- Interview Scoring
+- Candidate Status Management
+- Notifications
+- Document Upload
 
-## Repo strukturu
+## Repository strukturu
 
-* `requirements-analysis.md` — funksional tələblərin QA baxımından analizi
-* `test-scenarios.md` — yüksək səviyyəli test ssenariləri
-* `test-cases.md` — detallı test case-lər
-* `checklist.md` — test yoxlama siyahısı
-* `open-questions.md` — aydınlaşdırılmalı suallar
-* `test-summary.md` — QA yanaşmasının qısa xülasəsi
+- `requirements-analysis.md` — tələblərin QA baxımından analizi
+- `test-scenarios.md` — əsas test ssenariləri
+- `change-requests.md` — dəyişiklik və təkmilləşdirmə qeydləri
+- `checklist.md` — test yoxlama siyahısı
+- `open-questions.md` — dəqiqləşdirilməli suallar
+- `.gitignore` — Git tərəfindən izlənməməli fayllar
 
-## QA yanaşması
+## İstifadə olunan QA yanaşmaları
 
-Bu layihədə requirements-based testing yanaşmasından istifadə olunur. Yəni test ssenariləri və test case-lər texniki istək sənədində qeyd olunan funksional tələblərə əsasən hazırlanır.
+- Requirements Analysis
+- Requirements Validation
+- Functional Analysis
+- Business Rule Analysis
+- Boundary Analysis
+- Risk-Based Thinking
 
 ## Qeyd
 
-Bu public repo-da həssas məlumatlar, real istifadəçi məlumatları, daxili ekran görüntüləri, şəxsi identifikatorlar, QR kodlar, dəqiq daxili əlaqə məlumatları və məxfi əməliyyat detalları paylaşılmır.
+Bu repo public portfolio məqsədi ilə hazırlanmışdır. Həssas məlumatlar, real istifadəçi məlumatları, daxili sistem görüntüləri və məxfi detallar paylaşılmır.

@@ -21,3 +21,15 @@ CV yükləmə zamanı icazə verilən fayl formatları və maksimum fayl ölçü
 ## OQ-004: Status dəyişiklikləri üçün audit log saxlanılacaqmı?
 
 Admin tərəfindən edilən status dəyişikliklərinin tarixçəsinin saxlanılıb-saxlanılmayacağı dəqiqləşdirilməlidir.
+
+---
+
+## OQ-005: Köməkçi admin icazələri necə təyin ediləcək?
+
+Köməkçi adminlərin hansı sahələri görə və redaktə edə biləcəyi əsas admin tərəfindən necə idarə olunacaq?
+
+---
+
+## OQ-006: Email göndərilmədikdə sistem necə davranmalıdır?
+
+Email göndərilmədiyi halda sistem retry edəcək, yoxsa yalnız mail statusunu “göndərilmədi” kimi saxlayacaq?
